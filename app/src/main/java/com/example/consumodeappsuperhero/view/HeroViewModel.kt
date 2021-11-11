@@ -3,8 +3,8 @@ package com.example.consumodeappsuperhero.view
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import cl.serlitoral.superheroapp.model.Repo
-import cl.serlitoral.superheroapp.model.SuperHero
+import com.example.consumodeappsuperhero.model.Repo
+import com.example.consumodeappsuperhero.model.SuperHero
 import kotlinx.coroutines.launch
 
 class HeroViewModel: ViewModel() {
