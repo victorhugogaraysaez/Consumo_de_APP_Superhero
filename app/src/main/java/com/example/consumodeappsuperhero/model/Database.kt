@@ -7,7 +7,7 @@ import androidx.room.*
 @Dao
 interface HeroDAO {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertHero(heroList: List<SuperHero>)
+    fun insertHero(heroList: List<SuperHero>)
 
     @Query("SELECT * FROM superhero_table")
     fun getHeroes(): LiveData<List<SuperHero>>
